@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
     
 setup(
     name="serbian-text-converter",
-    version="0.1.1",
+    version="0.1.5",
     description="A utility package for converting Serbian text between Cyrillic and Latin scripts, and generating slugs.",
     long_description=long_description,
     long_description_content_type="text/markdown", 
@@ -14,7 +14,7 @@ setup(
     url="https://github.com/mladjom/serbian-text-converter",
     packages=find_packages(),
     install_requires=[
-        "Django>=5.2",
+        "Django>=3.2",
     ],
     classifiers=[
         "Development Status :: 5 - Production/Stable",        
@@ -23,7 +23,7 @@ setup(
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.8",
         "Operating System :: OS Independent",
-        "Framework :: Django :: 5.2"
+        "Framework :: Django :: 3.2"
     ],
     python_requires=">=3.1",
 )
